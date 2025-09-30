@@ -1,3 +1,19 @@
+<p align="left">
+  <!-- Python version -->
+  <a href="https://www.python.org/">
+    <img src="https://img.shields.io/badge/Python-3.8%2B-blue" alt="Python 3.8+">
+  </a>
+  <!-- License (auto-reads your repo’s license) -->
+  <a href="https://github.com/imranlabs/Broadband_Plasmonic_cloaking/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/imranlabs/Broadband_Plasmonic_cloaking" alt="License">
+  </a>
+  <!-- Open in Colab for your main notebook -->
+  <a href="https://colab.research.google.com/github/imranlabs/Broadband_Plasmonic_cloaking/blob/main/Broadband_Scattering_Suppression.ipynb">
+    <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab">
+  </a>
+</p>
+
+
 # Broadband Scattering Suppression with Plasmonic Cloaking
 
 ## Overview
