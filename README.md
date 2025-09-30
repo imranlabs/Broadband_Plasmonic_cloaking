@@ -44,11 +44,11 @@ pip install numpy matplotlib tqdm pandas
 ## Installation
 1. Clone this repository:
    ```bash
-   git clone https://github.com/[your-username]/[your-repo-name].git
+   git clone https://github.com/imranlabs/Broadband_Plasmonic_cloaking.git
    ```
 2. Navigate to the project directory:
    ```bash
-   cd [your-repo-name]
+   cd Broadband_Plasmonic_cloaking
    ```
 3. Ensure the data file `data/optical_constants/20nm_gold_film_silica.csv` is present (contains wavelength, refractive index, extinction coefficients for AuNPs and silica).
 4. Launch Jupyter Notebook:
@@ -57,13 +57,12 @@ pip install numpy matplotlib tqdm pandas
    ```
 
 ## Usage
-1. Open `Evaluate_scattering_suppression.ipynb` in Jupyter.
+1. Open `Broadband_Scattering_Suppression.ipynb` in Jupyter.
 2. Run the cells sequentially:
    - The notebook loads optical constants from CSV.
    - It defines geometry and MFS functions.
-   - The `main()` function simulates scattering for a default configuration (690 nm core, 20 nm AuNPs, 20% filling fraction).
-3. Customize parameters in the `main()` function (e.g., `CoreDia`, `NPDia`, `Vff`) and re-run for different scenarios.
-4. The simulation outputs a plot saved to `figures/scattering_suppression.png` showing bare core vs. core-shell scattering suppression.
+3. Customize parameters in the **Main Execution Loop**  (e.g., `CoreDia`, `NPDia`, `Vff`) and re-run for different scenarios.
+4. The simulation outputs a plot saved to `results/figures/scattering_suppression.png` showing bare core vs. core-shell scattering suppression.
 
 **Note:** Simulations with high filling fractions (Vff >= 0.20) may take significant time due to multiple scattering computations.
 
@@ -76,7 +75,7 @@ Vff = 0.20       # Shell volume filling fraction
 M = 512          # Number of MFS points
 
 # After running, view the generated plot:
-# figures/scattering_suppression.png
+# results/figures/scattering_suppression.png
 ```
 
 This plots normalized scattering cross-sections (σ_s / σ_g) vs. wavelength, demonstrating broadband suppression.
