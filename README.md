@@ -14,7 +14,7 @@ The simulation combines Foldy-Lax multiple scattering theory with the method of 
 - Handles high filling fractions (up to ~0.3) for extended suppression up to ~650 nm.
 
 ## Repository Structure
-```text
+```none
 ├── Broadband_scattering_Suppression.ipynb      # Main Jupyter notebook
 ├── src/
 │   ├── Geometry.py                             # Geometry-related functions
